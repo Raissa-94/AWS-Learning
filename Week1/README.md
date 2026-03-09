@@ -8,3 +8,25 @@ In this project I launched an EC2 instance and deployed a simple Nginx web serve
 4. Started the web server
 5. configured Security groups
 ### Commands used
+### Install Nginx
+sudo yum install nginx -y
+### Start Nginx
+sudo systemctl start nginx
+### Enable Nginx
+sudo systemctl enable Nginx
+### System Status
+this is to know if the system is active and running
+sudo systemctl status nginx 
+### Check to seee if the default nginix message like welcome to Nginix will be displayed
+- The first time i did it did not work out because there was no inbound traffic rule allowing traffic on port 80 since nginx work by default on port 80, so i edited the inbound security rule by allowing HTTP traffic on port 80 from all IP addresses and when i reloaded the page the ** welcome to Nginx** messaged was displayed.
+- The EC2 Instance connect terminal displays the content of the nginix file, Nginx.conf.
+- I edited the nginx file to display my own custom content "Welcome to Raissa's Eazy Life Restaurant by continuing with the following commands
+### Edit file
+nano /etc/nginx/nginx.conf
+### To Change the Nginx content to my custom content
+cd /usr/share/nginx/html/
+### To delete the contrnts of the nginx file
+nano index.html
+sudo rm indext.htlm
+then add my custom index.html file to display the home page of my website with header " Welcome to Raissa's Eazy Life Restaurant" 
+sudo nano index.html
