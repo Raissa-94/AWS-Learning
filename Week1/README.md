@@ -26,7 +26,7 @@ nano /etc/nginx/nginx.conf
 ### To Change the Nginx content to my custom content
 cd /usr/share/nginx/html/
 ### To delete the content of the nginx file
-nano index.html
-sudo rm indext.htlm
-then add my custom index.html file to display the home page of my website with header " Welcome to Raissa's Eazy Life Restaurant" 
+* nano index.html
+* sudo rm indext.htlm
+Added my custom index.html file to display the home page of my website with header " Welcome to Raissa's Eazy Life Restaurant" 
 sudo nano index.html
