@@ -45,3 +45,5 @@ cd /usr/share/nginx/html/
 * sudo rm indext.htlm
 - Added my custom index.html file to display the home page of my website with header " Welcome to Raissa's Eazy Life Restaurant" 
 **sudo nano index.html**
+
+https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(271).png?raw=true
