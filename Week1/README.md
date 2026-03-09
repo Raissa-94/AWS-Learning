@@ -19,6 +19,7 @@ this is to know if the system is active and running
 sudo systemctl status nginx 
 ### Check to seee if the default nginix message like welcome to Nginix will be displayed
 - The first time i did it did not work out because there was no inbound traffic rule allowing traffic on port 80 since nginx work by default on port 80, so i edited the inbound security rule by allowing HTTP traffic on port 80 from all IP addresses and when i reloaded the page the **welcome to Nginx** messaged was displayed.
+Week1/Screenshot (265).png
 - The EC2 Instance connect terminal displays the content of the nginix file, Nginx.conf.
 - I edited the nginx file to display my own custom content **Welcome to Raissa's Eazy Life Restaurant** by continuing with the following commands
 ### Edit file
