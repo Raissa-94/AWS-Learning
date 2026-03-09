@@ -47,3 +47,4 @@ cd /usr/share/nginx/html/
 **sudo nano index.html**
 
 https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(271).png?raw=true
+https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(272).png?raw=true
