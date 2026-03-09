@@ -31,6 +31,8 @@ https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(268).png?raw=t
 
 https://github.com/Raissa-94/AWS-Learning/blob/main/Week1/Screenshot%20(265).png?raw=true
 - The EC2 Instance connect terminal displays the content of the nginix file, Nginx.conf.
+
+  https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(270).png?raw=true
 - I edited the nginx file to display my own custom content **Welcome to Raissa's Eazy Life Restaurant** by continuing with the following commands
 
   
