@@ -28,5 +28,5 @@ cd /usr/share/nginx/html/
 ### To delete the content of the nginx file
 * nano index.html
 * sudo rm indext.htlm
-Added my custom index.html file to display the home page of my website with header " Welcome to Raissa's Eazy Life Restaurant" 
-sudo nano index.html
+- Added my custom index.html file to display the home page of my website with header " Welcome to Raissa's Eazy Life Restaurant" 
+**sudo nano index.html**
