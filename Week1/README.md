@@ -49,5 +49,5 @@ cd /usr/share/nginx/html/
   
 ![my index.html file](https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(271).png?raw=true))
 
-![Security Group SSH Rule](Screenshot%20(272).png)
+[![my web page](https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(272).png?raw=true)
 
