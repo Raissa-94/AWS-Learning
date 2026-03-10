@@ -9,8 +9,8 @@ In this project I launched an EC2 instance and deployed a simple Nginx web serve
 5. configured Security groups
 ### Commands used
 - cretaed an EC2 instance and connected to it via EC2 instance connect and went ahead to install the web server software. the first time i tried connecting it didnt work because there was no inbound rule allowing trafic on port 22.
-  
-https://github.com/Raissa-94/AWS-Learning/blob/main/Week1/Screenshot%20(267).png?raw=true
+  ![Security Group SSH Rule](Screenshot%20(267).png)
+
 Then i added new rule for SSH allowing trafic on port 22 from anywhere 0.0.0.0/0
 
 https://github.com/Raissa-94/AWS-Learning/blob/main/Week1/Screenshot%20(266).png?raw=true 
