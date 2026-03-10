@@ -23,7 +23,7 @@ sudo systemctl enable Nginx
 ### System Status
 this is to know if the system is active and running
 sudo systemctl status nginx 
-
+![Nginx Web Page](https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(268).png?raw=true)
 ![System status](Screenshot%20(268).png)
 
 ### Check to seee if the default nginix message like welcome to Nginix will be displayed
@@ -33,7 +33,7 @@ sudo systemctl status nginx
 
 - The EC2 Instance connect terminal displays the content of the nginix file, Nginx.conf.
 
-![Nginx Web Page](https://github.com/Raissa-94/AWS-Learning/blob/main/Screenshot%20(268).png?raw=true)
+
 
 - I edited the nginx file to display my own custom content **Welcome to Raissa's Eazy Life Restaurant** by continuing with the following commands
  
