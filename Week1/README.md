@@ -24,7 +24,7 @@ sudo systemctl enable Nginx
 this is to know if the system is active and running
 sudo systemctl status nginx 
 
-![Security Group SSH Rule](Screenshot%20(268).png)
+![System status](Screenshot%20(268).png)
 
 ### Check to seee if the default nginix message like welcome to Nginix will be displayed
 - The first time i did it did not work out because there was no inbound traffic rule allowing traffic on port 80 since nginx work by default on port 80, so i edited the inbound security rule by allowing HTTP traffic on port 80 from all IP addresses and when i reloaded the page the **welcome to Nginx** messaged was displayed.
