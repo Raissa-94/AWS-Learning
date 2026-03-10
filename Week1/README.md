@@ -12,8 +12,8 @@ In this project I launched an EC2 instance and deployed a simple Nginx web serve
   ![Security Group SSH Rule](Screenshot%20(267).png)
 
 Then i added new rule for SSH allowing trafic on port 22 from anywhere 0.0.0.0/0
+![Security Group SSH Rule](Screenshot%20(266).png)
 
-https://github.com/Raissa-94/AWS-Learning/blob/main/Week1/Screenshot%20(266).png?raw=true 
 ### Install Nginx
 sudo yum install nginx -y
 ### Start Nginx
