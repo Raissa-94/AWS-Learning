@@ -50,30 +50,44 @@ Region
 
 Output format
 
-## IAM Policies
-Policies define permissions using JSON documents.
+## IAM Policy Structure
+
+Policies are written using **JSON**.
 
 Example:
 
 ```json
 {
- "Effect": "Allow",
- "Action": "ec2:DescribeInstances",
- "Resource": "*"
+ "Version": "2012-10-17",
+ "Statement": [
+   {
+     "Effect": "Allow",
+     "Action": "ec2:DescribeInstances",
+     "Resource": "*"
+   }
+ ]
 }
-
 #### Password Policy
+
 A password policy defines the rules users must follow when creating passwords.
 
 **What I Practiced**
+- Enabled password policy.
+- Set minimum password length
+- Required uppercase and lowercase characters
+- Required numbers and symbols
+- Forced password rotation
+Password policies help enforce strong passwords, which improves account security.
 
-Enabled password policy
+#### Multi-Factor Authentication (MFA)
 
-Set minimum password length
+MFA adds an additional layer of security by requiring a second authentication factor.
+**MFA= Password + Authentication code from an app**
 
-Required uppercase and lowercase characters
+What I did
+- Enabled MFA for an IAM user
+- Linked an authenticator app.Downloaded Authy for android
+- Tested login with MFA
+- Even if someone steals your password, they cannot log in without the second factor.
 
-Required numbers and symbols
-
-Forced password rotation
 
