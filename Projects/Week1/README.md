@@ -4,7 +4,7 @@
 
 This project demonstrates launching an EC2 instance and deploying an Nginx web server.
 
-[View Project Documentation](Projects/Week1/README.md)
+[[View Project Documentation](Projects/Week1/README.md)](https://github.com/Raissa-94/AWS-Learning/blob/main/Projects/Week1/README.md)
 # EC2 Nginx Deployment
 ## Overview
 In this project I launched an EC2 instance and deployed a simple Nginx web server.
@@ -15,7 +15,7 @@ In this project I launched an EC2 instance and deployed a simple Nginx web serve
 4. Started the web server
 5. configured Security groups
 ### Commands used
-- createdd an EC2 instance and connected to it via EC2 instance connect and went ahead to install the web server software. the first time i tried connecting it didnt work because there was no inbound rule allowing trafic on port 22.
+- Createdd an EC2 instance and connected to it via EC2 instance connect and went ahead to install the web server software. the first time i tried connecting it didnt work because there was no inbound rule allowing trafic on port 22.
   ![Security Group SSH Rule](Screenshot%20(267).png)
 
 Then i added new rule for SSH allowing trafic on port 22 from anywhere 0.0.0.0/0
