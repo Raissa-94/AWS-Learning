@@ -1,3 +1,10 @@
+# ## Projects
+
+### Week 1 — EC2 Nginx Deployment
+
+This project demonstrates launching an EC2 instance and deploying an Nginx web server.
+
+[View Project Documentation](Projects/Week1/README.md)
 # EC2 Nginx Deployment
 ## Overview
 In this project I launched an EC2 instance and deployed a simple Nginx web server.
