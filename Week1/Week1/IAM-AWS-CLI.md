@@ -5,9 +5,9 @@ This section documents what I learned about AWS Identity and Access Management (
 - IAM Users
 - IAM Groups
 - IAM Permissions
-- IAM Policy Structure
 - Password Policy
 - MFA
+- IAM Policy Structure
 
 ## IAM Users
 IAM users represent individual people or applications that need access to AWS resources. 
