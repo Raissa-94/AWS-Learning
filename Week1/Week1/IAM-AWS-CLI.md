@@ -2,6 +2,12 @@
 
 ## Overview
 This section documents what I learned about AWS Identity and Access Management (IAM) and the AWS CLI.
+- IAM Users
+- IAM Groups
+- IAM Permissions
+- IAM Policy Structure
+- Password Policy
+- MFA
 
 ## IAM Users
 IAM users represent individual people or applications that need access to AWS resources. 
@@ -27,26 +33,6 @@ Example:
 - Allow EC2 access
 - Deny S3 access
 
-## IAM Policy Structure
-
-Policies are written in **JSON format**
-i wrote a simple JSON Policy and attached it to my User giving them permissions to do certain actions in AWS S3 and AWS EC2.
-
-Example policy:
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": "ec2:DescribeInstances",
-      "Resource": "*"
-    }
-  ]
-}
-
-
 ### AWS CLI
 
 The AWS CLI ais used to manage AWS services from the command line using commands
@@ -63,5 +49,31 @@ Secret Key
 Region
 
 Output format
-#### Security
-**Password Policy and MFA** 
+
+## IAM Policies
+Policies define permissions using JSON documents.
+
+Example:
+
+```json
+{
+ "Effect": "Allow",
+ "Action": "ec2:DescribeInstances",
+ "Resource": "*"
+}
+
+#### Password Policy
+A password policy defines the rules users must follow when creating passwords.
+
+**What I Practiced**
+
+Enabled password policy
+
+Set minimum password length
+
+Required uppercase and lowercase characters
+
+Required numbers and symbols
+
+Forced password rotation
+
