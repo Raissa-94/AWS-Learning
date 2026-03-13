@@ -49,24 +49,6 @@ Secret Key
 Region
 
 Output format
-
-## IAM Policy Structure
-
-Policies are written using **JSON**.
-
-Example:
-
-```json
-{
- "Version": "2012-10-17",
- "Statement": [
-   {
-     "Effect": "Allow",
-     "Action": "ec2:DescribeInstances",
-     "Resource": "*"
-   }
- ]
-}
 #### Password Policy
 
 A password policy defines the rules users must follow when creating passwords.
@@ -91,3 +73,20 @@ What I did
 - Even if someone steals your password, they cannot log in without the second factor.
 
 
+## IAM Policy Structure
+
+Policies are written using **JSON**.
+
+Example:
+
+```json
+{
+ "Version": "2012-10-17",
+ "Statement": [
+   {
+     "Effect": "Allow",
+     "Action": "ec2:DescribeInstances",
+     "Resource": "*"
+   }
+ ]
+}
