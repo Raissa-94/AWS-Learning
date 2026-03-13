@@ -18,34 +18,6 @@ IAM groups allow you to organize users and manage permissions more easily.
 - Created a group
 - Added users to the group
 - Attached policies to the group
-# IAM and AWS CLI Basics
-
-## Overview
-This section documents what I learned about AWS Identity and Access Management (IAM) and the AWS CLI.
-
----
-
-## IAM Users
-
-IAM users represent individual people or applications that need access to AWS resources.
-
-### What I Practiced
-- Created IAM users
-- Generated login credentials
-- Assigned permissions
-
----
-
-## IAM Groups
-
-IAM groups allow you to organize users and manage permissions more easily.
-
-### What I Did
-- Created a group
-- Added users to the group
-- Attached policies to the group
-
----
 
 ## IAM Permissions
 
@@ -55,9 +27,10 @@ Example:
 - Allow EC2 access
 - Deny S3 access
 
----## IAM Policy Structure
+## IAM Policy Structure
 
-Policies are written in **JSON format**.
+Policies are written in **JSON format**
+i wrote a simple JSON Policy and attached it to my User giving them permissions to do certain actions in AWS S3 and AWS EC2.
 
 Example policy:
 
@@ -75,10 +48,8 @@ Example policy:
 
 ### AWS CLI
 
-The AWS CLI allows you to manage AWS services from the command line.
-
-Example command:
-
+The AWS CLI ais used to manage AWS services from the command line using commands
+To Give a User or Service access to your AWS Account
 aws configure
 
 This command sets up:
@@ -91,3 +62,5 @@ Secret Key
 Region
 
 Output format
+#### Security
+**Password Policy and MFA** 
